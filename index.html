@@ -35,6 +35,19 @@
       color: white;
     }
 
+    .hmbr {
+      border: none;
+    }
+
+    .hmbr:focus {
+      border: none;
+      color: transparent;
+    }
+
+    .hmbr>span {
+      color: white;
+    }
+
     .dropdown-menu>li>a {
       color: black !important;
     }
@@ -52,9 +65,10 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Logo</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+        <button class="navbar-toggler hmbr" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="fa-solid fa-bars"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -212,7 +226,7 @@
       </div>
 
       <!-- contact form -->
-      <div class="row justify-content-evenly mt-3 pt-3 pb-3 mb-3" style="background-color: #f1f1f1;">
+      <div class="row justify-content-evenly mt-5 pt-3 pb-3 mb-3" style="background-color: #f1f1f1;">
         <div class="col-md-5 pb-4 pb-md-0">
           <h2 class="mb-3">Contact form</h2>
           <form>
